@@ -41,9 +41,13 @@ Devices avoid collisions using techniques like RTS/CTS and backoff algorithms. M
 - All devices are assigned IP addresses in the same network
 
 📸 Screenshot:
-(Attach your Packet Tracer topology screenshot here)
+
+- Figure 1: CSMA-CD Network Topology:
 
 ![CSMA/CD Topology](csma_cd_topology.jpeg)
+
+- Figure 2: CSMA-CA Network Topology:
+- 
 
 
 🛠️ Step-by-Step Procedure:
