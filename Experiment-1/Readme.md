@@ -5,11 +5,11 @@ To simulate and analyze multiple access protocols — Pure ALOHA, Slotted ALOHA,
 🎯 Objective:
 - To understand the working of multiple access protocols
 
--To implement Pure ALOHA, Slotted ALOHA, CSMA/CD, and CSMA/CA
+- To implement Pure ALOHA, Slotted ALOHA, CSMA/CD, and CSMA/CA
 
--To observe collisions and retransmissions
+- To observe collisions and retransmissions
 
--To compare efficiency under different network conditions
+- To compare efficiency under different network conditions
 
 📖 Theory:
 🔹 Pure ALOHA
@@ -30,13 +30,13 @@ Devices avoid collisions using techniques like RTS/CTS and backoff algorithms. M
 
 🌐 Network Topology:
 
--Multiple PCs connected using:
+- Multiple PCs connected using:
 
--Hub (for collision-based communication)
+- Hub (for collision-based communication)
 
--Switch/Wireless device (for CSMA/CA)
+- Switch/Wireless device (for CSMA/CA)
 
--All devices are assigned IP addresses in the same network
+- All devices are assigned IP addresses in the same network
 
 📸 Screenshot:
 (Attach your Packet Tracer topology screenshot here)
@@ -49,9 +49,9 @@ Devices avoid collisions using techniques like RTS/CTS and backoff algorithms. M
 
 3. Connect devices using:
 
--Hub (for ALOHA & CSMA/CD)
+- Hub (for ALOHA & CSMA/CD)
 
--Wireless Router (for CSMA/CA)
+- Wireless Router (for CSMA/CA)
 
 4. Assign IP addresses manually to all PCs
 
@@ -61,11 +61,11 @@ Devices avoid collisions using techniques like RTS/CTS and backoff algorithms. M
 
 7. Run simulation and observe:
 
--Packet flow
+- Packet flow
 
--Collisions
+- Collisions
 
--Retransmissions
+- Retransmissions
 
 8. Repeat for each protocol setup
 
@@ -87,31 +87,31 @@ Default Gateway: 192.168.1.254
 
 🔹 CSMA/CD
 
--Collisions detected and handled quickly
+- Collisions detected and handled quickly
 
--Efficient transmission in wired network
+- Efficient transmission in wired network
 
--Less delay
+- Less delay
 
 📸 Screenshot: (Attach simulation screenshot)
 
 🔹 CSMA/CA
 
--Collisions avoided using control mechanisms
+- Collisions avoided using control mechanisms
 
--Very efficient in wireless setup
+- Very efficient in wireless setup
 
--Slight delay due to waiting
+- Slight delay due to waiting
 
 📸 Screenshot: (Attach simulation screenshot)
 
 🧾 Conclusion
 
--Pure ALOHA has the highest collision rate and lowest efficiency
+- Pure ALOHA has the highest collision rate and lowest efficiency
 
--Slotted ALOHA improves performance by reducing collision chances
+- Slotted ALOHA improves performance by reducing collision chances
 
--CSMA/CD is efficient for wired networks due to collision detection
+- CSMA/CD is efficient for wired networks due to collision detection
 
--CSMA/CA provides the best performance by avoiding collisions in wireless networks
+- CSMA/CA provides the best performance by avoiding collisions in wireless networks
 
