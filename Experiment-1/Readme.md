@@ -116,7 +116,7 @@ Default Gateway: 192.168.1.254
 
 📸 Screenshot:
 
-![CSMA/CA Output](csma_ca_output.png)
+![CSMA/CA Output](csma_ca_output.jpeg)
 
 🧾 Conclusion
 
