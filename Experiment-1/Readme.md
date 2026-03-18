@@ -80,15 +80,18 @@ Devices avoid collisions using techniques like RTS/CTS and backoff algorithms. M
 8. Repeat for each protocol setup
 
 ⚙️ Configuration Commands:
+
 PC IP Configuration (Example)
 
 
 On each PC:
 
-IP Address: 192.168.1.1
-Subnet Mask: 255.255.255.0
-Default Gateway: 192.168.1.254
 
+IP Address: 192.168.1.1
+
+Subnet Mask: 255.255.255.0
+
+Default Gateway: 192.168.1.254
 
 (Assign different IPs for each device)
 
