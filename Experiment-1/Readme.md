@@ -3,7 +3,7 @@
 To simulate and analyze multiple access protocols — Pure ALOHA, Slotted ALOHA, CSMA/CD, and CSMA/CA — using Cisco Packet Tracer and evaluate their performance in terms of collision handling and transmission efficiency.
 
 🎯 Objective:
--To understand the working of multiple access protocols
+- To understand the working of multiple access protocols
 
 -To implement Pure ALOHA, Slotted ALOHA, CSMA/CD, and CSMA/CA
 
