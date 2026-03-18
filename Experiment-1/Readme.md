@@ -12,6 +12,7 @@ To simulate and analyze multiple access protocols — Pure ALOHA, Slotted ALOHA,
 - To compare efficiency under different network conditions
 
 📖 Theory:
+
 🔹 Pure ALOHA
 
 A random access protocol where devices transmit data anytime without checking the channel. This leads to a high number of collisions.
@@ -28,6 +29,7 @@ Devices sense the channel before transmitting. If a collision occurs, it is dete
 
 Devices avoid collisions using techniques like RTS/CTS and backoff algorithms. Mainly used in wireless networks.
 
+
 🌐 Network Topology:
 
 - Multiple PCs connected using:
@@ -40,6 +42,7 @@ Devices avoid collisions using techniques like RTS/CTS and backoff algorithms. M
 
 📸 Screenshot:
 (Attach your Packet Tracer topology screenshot here)
+
 
 🛠️ Step-by-Step Procedure:
 
@@ -72,6 +75,7 @@ Devices avoid collisions using techniques like RTS/CTS and backoff algorithms. M
 ⚙️ Configuration Commands:
 PC IP Configuration (Example)
 
+
 On each PC:
 
 IP Address: 192.168.1.1
@@ -82,6 +86,7 @@ Default Gateway: 192.168.1.254
 (Assign different IPs for each device)
 
 👉 No CLI commands are required as configuration is done via GUI in Packet Tracer.
+
 
 📊 Observations / Results:
 
