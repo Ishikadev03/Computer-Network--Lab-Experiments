@@ -47,7 +47,8 @@ Devices avoid collisions using techniques like RTS/CTS and backoff algorithms. M
 ![CSMA/CD Topology](csma_cd_topology.jpeg)
 
 - Figure 2: CSMA-CA Network Topology:
-- 
+
+![CSMA/CA Topology](csma_ca_topology.jpeg)
 
 
 🛠️ Step-by-Step Procedure:
