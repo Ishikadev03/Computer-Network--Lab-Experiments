@@ -13,14 +13,6 @@ To simulate and analyze multiple access protocols — Pure ALOHA, Slotted ALOHA,
 
 📖 Theory:
 
-🔹 Pure ALOHA
-
-A random access protocol where devices transmit data anytime without checking the channel. This leads to a high number of collisions.
-
-🔹 Slotted ALOHA
-
-An improved version of Pure ALOHA where time is divided into slots, and transmission occurs only at the beginning of a slot, reducing collisions.
-
 🔹 CSMA/CD
 
 Devices sense the channel before transmitting. If a collision occurs, it is detected and transmission stops immediately. Used in wired networks.
@@ -110,7 +102,9 @@ Default Gateway: 192.168.1.254
 
 - Less delay
 
-📸 Screenshot: (Attach simulation screenshot)
+📸 Screenshot: 
+
+![CSMA/CD Output](csma_cd_output.jpeg)
 
 🔹 CSMA/CA
 
@@ -120,13 +114,11 @@ Default Gateway: 192.168.1.254
 
 - Slight delay due to waiting
 
-📸 Screenshot: (Attach simulation screenshot)
+📸 Screenshot:
+
+![CSMA/CA Output](csma_ca_output.png)
 
 🧾 Conclusion
-
-- Pure ALOHA has the highest collision rate and lowest efficiency
-
-- Slotted ALOHA improves performance by reducing collision chances
 
 - CSMA/CD is efficient for wired networks due to collision detection
 
