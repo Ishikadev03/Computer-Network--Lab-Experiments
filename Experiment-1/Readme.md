@@ -1,17 +1,15 @@
-📡 Multiple Access Protocols Simulation (Cisco Packet Tracer)
 🧪 Experiment Title / Aim:
 
 To simulate and analyze multiple access protocols — Pure ALOHA, Slotted ALOHA, CSMA/CD, and CSMA/CA — using Cisco Packet Tracer and evaluate their performance in terms of collision handling and transmission efficiency.
 
 🎯 Objective:
+-To understand the working of multiple access protocols
 
-To understand the working of multiple access protocols
+-To implement Pure ALOHA, Slotted ALOHA, CSMA/CD, and CSMA/CA
 
-To implement Pure ALOHA, Slotted ALOHA, CSMA/CD, and CSMA/CA
+-To observe collisions and retransmissions
 
-To observe collisions and retransmissions
-
-To compare efficiency under different network conditions
+-To compare efficiency under different network conditions
 
 📖 Theory:
 🔹 Pure ALOHA
@@ -32,46 +30,46 @@ Devices avoid collisions using techniques like RTS/CTS and backoff algorithms. M
 
 🌐 Network Topology:
 
-Multiple PCs connected using:
+-Multiple PCs connected using:
 
-Hub (for collision-based communication)
+-Hub (for collision-based communication)
 
-Switch/Wireless device (for CSMA/CA)
+-Switch/Wireless device (for CSMA/CA)
 
-All devices are assigned IP addresses in the same network
+-All devices are assigned IP addresses in the same network
 
 📸 Screenshot:
 (Attach your Packet Tracer topology screenshot here)
 
-🛠️ Step-by-Step Procedure
+🛠️ Step-by-Step Procedure:
 
-Open Cisco Packet Tracer
+1. Open Cisco Packet Tracer
 
-Create a network with multiple PCs
+2. Create a network with multiple PCs
 
-Connect devices using:
+3. Connect devices using:
 
-Hub (for ALOHA & CSMA/CD)
+-Hub (for ALOHA & CSMA/CD)
 
-Wireless Router (for CSMA/CA)
+-Wireless Router (for CSMA/CA)
 
-Assign IP addresses manually to all PCs
+4. Assign IP addresses manually to all PCs
 
-Switch to Simulation Mode
+5. Switch to Simulation Mode
 
-Use Add Simple PDU (Ping) between devices
+6. Use Add Simple PDU (Ping) between devices
 
-Run simulation and observe:
+7. Run simulation and observe:
 
-Packet flow
+-Packet flow
 
-Collisions
+-Collisions
 
-Retransmissions
+-Retransmissions
 
-Repeat for each protocol setup
+8. Repeat for each protocol setup
 
-⚙️ Configuration Commands
+⚙️ Configuration Commands:
 PC IP Configuration (Example)
 
 On each PC:
@@ -85,55 +83,35 @@ Default Gateway: 192.168.1.254
 
 👉 No CLI commands are required as configuration is done via GUI in Packet Tracer.
 
-📊 Observations / Results
-🔹 Pure ALOHA
-
-Frequent collisions observed
-
-Many retransmissions
-
-Low efficiency
-
-📸 Screenshot: (Attach simulation screenshot)
-
-🔹 Slotted ALOHA
-
-Reduced collisions compared to Pure ALOHA
-
-Better synchronization
-
-Moderate efficiency
-
-📸 Screenshot: (Attach simulation screenshot)
+📊 Observations / Results:
 
 🔹 CSMA/CD
 
-Collisions detected and handled quickly
+-Collisions detected and handled quickly
 
-Efficient transmission in wired network
+-Efficient transmission in wired network
 
-Less delay
+-Less delay
 
 📸 Screenshot: (Attach simulation screenshot)
 
 🔹 CSMA/CA
 
-Collisions avoided using control mechanisms
+-Collisions avoided using control mechanisms
 
-Very efficient in wireless setup
+-Very efficient in wireless setup
 
-Slight delay due to waiting
+-Slight delay due to waiting
 
 📸 Screenshot: (Attach simulation screenshot)
 
 🧾 Conclusion
 
-Pure ALOHA has the highest collision rate and lowest efficiency
+-Pure ALOHA has the highest collision rate and lowest efficiency
 
-Slotted ALOHA improves performance by reducing collision chances
+-Slotted ALOHA improves performance by reducing collision chances
 
-CSMA/CD is efficient for wired networks due to collision detection
+-CSMA/CD is efficient for wired networks due to collision detection
 
-CSMA/CA provides the best performance by avoiding collisions in wireless networks
+-CSMA/CA provides the best performance by avoiding collisions in wireless networks
 
-👉 Overall, CSMA/CA and CSMA/CD outperform ALOHA protocols in real-world scenarios.
