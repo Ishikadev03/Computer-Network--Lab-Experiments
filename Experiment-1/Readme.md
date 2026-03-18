@@ -78,6 +78,7 @@ Devices avoid collisions using techniques like RTS/CTS and backoff algorithms. M
 - Retransmissions
 
 8. Repeat for each protocol setup
+   
 
 ⚙️ Configuration Commands:
 
@@ -96,6 +97,7 @@ Default Gateway: 192.168.1.254
 (Assign different IPs for each device)
 
 👉 No CLI commands are required as configuration is done via GUI in Packet Tracer.
+
 
 
 📊 Observations / Results:
