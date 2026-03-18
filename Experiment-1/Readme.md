@@ -43,7 +43,7 @@ Devices avoid collisions using techniques like RTS/CTS and backoff algorithms. M
 📸 Screenshot:
 (Attach your Packet Tracer topology screenshot here)
 
-![CSMA/CD Topology](csma_cd_topology.png)
+![CSMA/CD Topology](csma_cd_topology.jpeg)
 
 
 🛠️ Step-by-Step Procedure:
