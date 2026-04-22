@@ -1,18 +1,17 @@
 **Experiment 5:  Error Detection and Correction Mechanisms Using Block Coding and CRC**
 
 1. Objective:
-   
 Implement error detection and correction mechanisms using block coding and Cyclic Redundancy Check (CRC), and simulate a communication system to demonstrate how errors are detected and corrected during data transmission.
 
-3. Theory:
+2. Theory:
 
 a. Block Coding:
 Data is divided into discrete blocks, and redundant parity bits are appended to detect and correct single-bit errors. By adding these extra bits, the receiver can verify if the data received matches the data sent.
 
 b. CRC (Cyclic Redundancy Check):
 A mathematical division process used to detect accidental changes to raw data. The sender calculates a check value based on binary division and appends it to the frame as the Frame Check Sequence (FCS).
-o
-3. Network Topology:
+
+3.  Network Topology:
 Topology (Above: A simple network topology consisting of End Devices and a Switch to test data transmission and frame headers).
 
 - Step-by-step Procedure:
