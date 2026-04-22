@@ -1,25 +1,26 @@
-**Experiment 5: Error Detection and Correction Mechanisms Using Block Coding and CRC**
+**Experiment 5:  Error Detection and Correction Mechanisms Using Block Coding and CRC**
 
-
-Objective:
+1. Objective:
 Implement error detection and correction mechanisms using block coding and Cyclic Redundancy Check (CRC), and simulate a communication system to demonstrate how errors are detected and corrected during data transmission.
 
-Theory:
-Block Coding
+2. Theory:
+
+a. Block Coding:
 Data is divided into discrete blocks, and redundant parity bits are appended to detect and correct single-bit errors. By adding these extra bits, the receiver can verify if the data received matches the data sent.
 
-CRC (Cyclic Redundancy Check)
+b. CRC (Cyclic Redundancy Check):
 A mathematical division process used to detect accidental changes to raw data. The sender calculates a check value based on binary division and appends it to the frame as the Frame Check Sequence (FCS).
-
-Network Topology
+o
+3. Network Topology:
 Topology (Above: A simple network topology consisting of End Devices and a Switch to test data transmission and frame headers).
 
-Step-by-step Procedure
-Topology Setup: Created a new network topology using End Devices (PCs) and a central Switch.
-IP Addressing: Assigned static IP addresses to the PCs.
-Documentation: Used the "Add Note" feature in Packet Tracer to document the theoretical application of block coding and parity bits for error checking within the workspace.
-Traffic Generation: Generated ICMP (ping) traffic using the Add Simple PDU tool to simulate data transmission.
-Packet Inspection: Switched to Simulation Mode to observe the packet headers, specifically inspecting the Ethernet II frame to view the CRC/FCS trailer used for error detection.
+- Step-by-step Procedure:
+  -Topology Setup: Created a new network topology using End Devices (PCs) and a central Switch.
+  -IP Addressing:  Assigned static IP addresses to the PCs.
+  -Documentation:  Used the "Add Note" feature in Packet Tracer to document the theoretical application of block coding and parity bits for error checking within the workspace.
+  -Traffic Generation:  Generated ICMP (ping) traffic using the Add Simple PDU tool to simulate data transmission.
+  -Packet Inspection:  Switched to Simulation Mode to observe the packet headers, specifically inspecting the Ethernet II frame to view the CRC/FCS trailer used for error detection.
+  
 Configuration Commands
 N/A (This experiment relies on packet inspection rather than CLI configuration).
 
