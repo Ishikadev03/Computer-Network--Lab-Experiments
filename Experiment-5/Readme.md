@@ -1,10 +1,8 @@
-<h1>Experiment 5:  Error Detection and Correction Mechanisms Using Block Coding and CRC</h1>
+<h1>Experiment 5</h1>
 
-<h2>1. Objective:</h2>
+<h2>Implement error detection and correction mechanisms using block coding and CRC. Simulate a communication system that demonstrates how errors are detected and corrected during data transmission.</h2>
 
-Implement error detection and correction mechanisms using block coding and Cyclic Redundancy Check (CRC), and simulate a communication system to demonstrate how errors are detected and corrected during data transmission.
-
-<h2>2. Theory:</h2>
+<h3>2. Theory:</h3>
    
 a. Block Coding:
 Data is divided into discrete blocks, and redundant parity bits are appended to detect and correct single-bit errors. By adding these extra bits, the receiver can verify if the data received matches the data sent.
