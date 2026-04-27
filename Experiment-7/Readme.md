@@ -28,7 +28,8 @@ Implement a sliding window protocol with piggybacking for efficient data transmi
    
 <h2>Configuration Commands</h2>
 
-- PC0 Command Prompt: ping -t <IP_of_PC1>
+- PC0 Command Prompt: ```  ping -t <IP_of_PC1>```
+  
 
 
  <h2>Observations / Results</h2>
