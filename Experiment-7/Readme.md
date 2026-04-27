@@ -27,11 +27,16 @@ Implement a sliding window protocol with piggybacking for efficient data transmi
 6. Frame Analysis: Clicked on the packets in the Event List to view detailed sequence numbers and acknowledgment data.
    
 <h2>Configuration Commands</h2>
-PC0 Command Prompt: ping -t <IP_of_PC1>
-Observations / Results
-PDU Sequence Analysis
+- PC0 Command Prompt: ```
+ping -t <IP_of_PC1>
+```
 
-Observed continuous data frames being sent consecutively, simulating the sliding window filling up.
-Outgoing data frames from PC1 included acknowledgments for the frames received from PC0, successfully demonstrating the piggybacking concept.
-Conclusion
+ 
+<h2>Observations / Results</h2>
+
+1. Observed continuous data frames being sent consecutively, simulating the sliding window filling up.
+2. Outgoing data frames from PC1 included acknowledgments for the frames received from PC0, successfully demonstrating the piggybacking concept.
+   
+<h2>Conclusion</h2>
+
 The simulation successfully visualized the sliding window mechanism and piggybacking. Analyzing the sequence numbers confirmed that these techniques significantly reduce network overhead and improve transmission efficiency compared to simple Stop-and-Wait protocols.
