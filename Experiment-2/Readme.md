@@ -2,52 +2,56 @@
 
 <h2>Design and simulate a simple computer network using various connection topologies (bus, star, ring, mesh). Compare the advantages and disadvantages of each topology in terms of data flow and network efficiency.</h2>
 
-BUS TOPOLOGY
+<h3>BUS TOPOLOGY</h3>
 
-Steps:
+<h4>Steps:</h4>
 
-Open Cisco Packet Tracer
-Drag 4–5 PCs
-Drag 1 Hub
-Connect all PCs to the hub using Copper Straight-through cables
-Assign IP addresses: PC1 → 192.168.1.1 PC2 → 192.168.1.2 PC3 → 192.168.1.3
-Use Add Simple PDU (envelope icon) to send packets
-Observe packet flow (shared medium behavior)
-STAR TOPOLOGY
+1. Open Cisco Packet Tracer
+2. Drag 4–5 PCs
+3. Drag 1 Hub
+4. Connect all PCs to the hub using Copper Straight-through cables
+5. Assign IP addresses: PC1 → 192.168.1.1 PC2 → 192.168.1.2 PC3 → 192.168.1.3
+6. Use Add Simple PDU (envelope icon) to send packets
+7. Observe packet flow (shared medium behavior)
+   
+<h3>STAR TOPOLOGY</h3>
 
-Steps:
+<h4>Steps:</h4>
 
-Place 1 Switch
-Add 4–6 PCs
-Connect each PC to the switch using Straight-through cable
-Assign IPs (same network): 192.168.2.x
-Send PDU between PCs
-Observe: communication via central switch
-RING TOPOLOGY
+1. Place 1 Switch
+2. Add 4–6 PCs
+3. Connect each PC to the switch using Straight-through cable
+4. Assign IPs (same network): 192.168.2.x
+5. Send PDU between PCs
+6. Observe: communication via central switch
+   
+<h3>RING TOPOLOGY</h3>
 
-Steps:
+<h4>Steps:</h4>
 
-Packet Tracer does not directly support ring via a single device, so simulate manually:
-Place 4 PCs Connect: PC1 → PC2 PC2 → PC3 PC3 → PC4 PC4 → PC1
-Use Cross-over cables
-Assign IPs (same network: 192.168.3.x)
-Send PDU and observe circular path
-MESH TOPOLOGY
+1. Packet Tracer does not directly support ring via a single device, so simulate manually:
+2. Place 4 PCs Connect: PC1 → PC2 PC2 → PC3 PC3 → PC4 PC4 → PC1
+3. Use Cross-over cables
+4. Assign IPs (same network: 192.168.3.x)
+5. Send PDU and observe circular path
+   
+<h3>MESH TOPOLOGY</h3>
 
-Steps:
+<h4>Steps:</h4>
 
-Place 4 PCs
-Connect each PC to every other PC
-Use Cross-over cables
-Assign IPs: 192.168.4.x
-Send PDU
-Observe multiple paths for data
-HYBRID TOPOLOGY
+1. Place 4 PCs
+2. Connect each PC to every other PC
+3. Use Cross-over cables
+4. Assign IPs: 192.168.4.x
+5. Send PDU
+6. Observe multiple paths for data
+   
+<h3>HYBRID TOPOLOGY</h3>
 
-Steps:
+<h4>Steps:</h4>
 
-Add 2 Switches + 1 Hub + PCs
-PCs → Switches (Star)
-Switches → Hub (Bus backbone)
-Test → observe combined behavior
+1. Add 2 Switches + 1 Hub + PCs
+2. PCs → Switches (Star)
+3. Switches → Hub (Bus backbone)
+4. Test → observe combined behavior
 
