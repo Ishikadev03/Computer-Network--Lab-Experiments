@@ -8,7 +8,7 @@ Implement a DNS and DDNS simulation to demonstrate domain name resolution and dy
 
 DNS translates human-readable domain names (like example.com) into the numerical IP addresses (like 192.168.1.2) required for routing data across networks. DDNS (Dynamic DNS) allows these resource records to be updated dynamically in real-time, ensuring that the domain name always points to the correct IP address even if the host's address changes.
 
-<h2>Network Topology<?
+<h2>Network Topology</h2>
   
 ![DNS Topology](Topology.jpeg)
 
