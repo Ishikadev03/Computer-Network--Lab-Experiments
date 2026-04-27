@@ -30,8 +30,11 @@ A mathematical division process used to detect accidental changes to raw data. T
 N/A (This experiment relies on packet inspection rather than CLI configuration).
 
 <h3>4. Observations / Results:</h3>
+
 - <h5>Inspected the outbound PDU details in Simulation Mode.</h5>
+
 - <h5>While physical bit-flipping isn't manually configurable in the GUI, the simulation allowed for the visualization of the FCS trailer, confirming the implementation of CRC at the data link layer.</h5>
+
   
 <h3>5. Conclusion:</h3>
 Successfully simulated a communication system demonstrating error detection concepts. The experiment highlighted the practical application of CRC in standard Ethernet frames to ensure data integrity over a network.
