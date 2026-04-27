@@ -13,17 +13,20 @@ Implement a sliding window protocol with piggybacking for efficient data transmi
 
 <h2>Network Topology</h2>
 
-![Topology](Experiment-7/
+![Topology](Experiment-7/Topology.jpeg)
+
  (Above: A direct network topology featuring a sender and receiver node).
 
-Step-by-step Procedure
-Topology Setup: Created a network topology with two nodes (PC0 as sender, PC1 as receiver) connected directly or via a simple switch.
-IP Addressing: Assigned IP Addresses to both PCs.
-Documentation: Added workspace notes explaining the theoretical application of Sliding Window and Piggybacking in this data transfer.
-Traffic Initiation: Opened the Command Prompt on PC0 and initiated a continuous data stream (e.g., continuous ping) to PC1 to simulate the transmission of multiple frames.
-Simulation Mode: Switched to Simulation Mode and used the Capture/Forward button to step through the packet exchanges.
-Frame Analysis: Clicked on the packets in the Event List to view detailed sequence numbers and acknowledgment data.
-Configuration Commands
+<h4>Step-by-step Procedure</h4>
+
+1. Topology Setup: Created a network topology with two nodes (PC0 as sender, PC1 as receiver) connected directly or via a simple switch.
+2. IP Addressing: Assigned IP Addresses to both PCs.
+3. Documentation: Added workspace notes explaining the theoretical application of Sliding Window and Piggybacking in this data transfer.
+4. Traffic Initiation: Opened the Command Prompt on PC0 and initiated a continuous data stream (e.g., continuous ping) to PC1 to simulate the transmission of multiple frames.
+5. Simulation Mode: Switched to Simulation Mode and used the Capture/Forward button to step through the packet exchanges.
+6. Frame Analysis: Clicked on the packets in the Event List to view detailed sequence numbers and acknowledgment data.
+   
+<h2>Configuration Commands</h2>
 PC0 Command Prompt: ping -t <IP_of_PC1>
 Observations / Results
 PDU Sequence Analysis
