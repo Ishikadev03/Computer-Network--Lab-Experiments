@@ -6,11 +6,11 @@ Create a simulation to demonstrate logical addressing using IPv4 and IPv6 and 33
 
 <h2>Theory</h2>
 
-- <h3>DHCP (Dynamic Host Configuration Protocol)</h3>: Automatically assigns IP addresses and network configuration (such as subnet masks and default gateways) to client devices.
+- **DHCP (Dynamic Host Configuration Protocol):** Automatically assigns IP addresses and network configuration (such as subnet masks and default gateways) to client devices.
 
-- <h3>ARP (Address Resolution Protocol):</h3> Resolves a known logical IP address to an unknown physical MAC address to facilitate local network communication.
+- **ARP (Address Resolution Protocol):** Resolves a known logical IP address to an unknown physical MAC address to facilitate local network communication.
 
-- <h3>IPv6:</h3> The next-generation protocol providing a massively expanded 128-bit address space, designed to replace IPv4.
+- **IPv6:** The next-generation protocol providing a massively expanded 128-bit address space, designed to replace IPv4.
 
 <h2>Network Topology</h2>
 
