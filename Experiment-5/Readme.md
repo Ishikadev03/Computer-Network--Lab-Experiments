@@ -2,19 +2,17 @@
 
 <h2>Implement error detection and correction mechanisms using block coding and CRC. Simulate a communication system that demonstrates how errors are detected and corrected during data transmission.</h2>
 
-<h3>2. Theory:</h3>
+<h3>1. Theory:</h3>
    
-a. Block Coding:
+<h4>a. Block Coding:</h4>
 Data is divided into discrete blocks, and redundant parity bits are appended to detect and correct single-bit errors. By adding these extra bits, the receiver can verify if the data received matches the data sent.
 
-b. CRC (Cyclic Redundancy Check):
+<h4>b. CRC (Cyclic Redundancy Check):</h4>
 A mathematical division process used to detect accidental changes to raw data. The sender calculates a check value based on binary division and appends it to the frame as the Frame Check Sequence (FCS).
 
-<h2>3.  Network Topology:</h2>
-   
-Topology (Above: A simple network topology consisting of End Devices and a Switch to test data transmission and frame headers).
+<h3>2. Network Topology:</h3>
 
-- Step-by-step Procedure:
+<h4>- Step-by-step Procedure:</h4>
   - Topology Setup: Created a new network topology using End Devices (PCs) and a central Switch.
   - IP Addressing:  Assigned static IP addresses to the PCs.
   - Documentation:  Used the "Add Note" feature in Packet Tracer to document the theoretical application of block coding and parity bits for error checking within the workspace.
