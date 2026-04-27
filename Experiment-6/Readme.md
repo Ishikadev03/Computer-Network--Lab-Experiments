@@ -12,7 +12,7 @@
 
 <h2>Network Topology</h2>
 
-![Topology](Experiment6/Topology.jpeg)
+![Topology](Experiment-6/Topology.jpeg)
 
 
 (Above: A complex network topology utilizing two PCs, two Switches, and two 2811 Routers connected via a crossover cable to simulate network delay and routing for flow control).
