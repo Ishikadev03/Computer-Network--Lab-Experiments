@@ -28,7 +28,7 @@ Create a simulation to demonstrate logical addressing using IPv4 and IPv6 and 33
 6. **Verification:** Verified communication using both IPv4 and IPv6 ping commands to ensure end-to-end connectivity.
 
 <h2>Configuration Commands</h2>
-**N/A** (Configurations handled via GUI menus for PC interfaces and Server services).
+N/A (Configurations handled via GUI menus for PC interfaces and Server services).
 
 <h2>Observations / Results</h2>
 
