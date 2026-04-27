@@ -29,7 +29,9 @@
 6. Switched to Simulation Mode to observe the packet transmission process step-by-step, analyzing how the network handles the simulated window of frames.
   
 <h2>Configuration Commands</h2>
+
 (Example configuration for establishing the router link)
+
 ```
 
 Router> enable
@@ -38,5 +40,6 @@ Router(config)# interface fastEthernet 0/1
 Router(config-if)# ip address 10.0.0.1 255.255.255.0
 Router(config-if)# no shutdown
 Router(config-if)# exit
+
 ```
 
