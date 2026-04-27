@@ -20,23 +20,17 @@ Create a simulation to demonstrate logical addressing using IPv4 and IPv6 and 33
 
 <h3>Step-by-step Procedure</h3>
 
-- <h4>Topology Design:</h4> Designed a network topology including PCs, a Router, a Switch, and a Server.
-
-- <h4>Static Configuration:</h4> Assigned static IPv4 and IPv6 addresses to the Server and Router interfaces.
-
-- <h4>DHCP Setup:</h4> Accessed the Server's Services tab, enabled DHCP, and configured a pool with a range of IP addresses, subnet mask, and default gateway.
-
-- <h4>Client Configuration:</h4> Configured the PCs to acquire their IP addresses via DHCP instead of static entry.
-
-- <h4>ARP Simulation:</h4> Opened the Command Prompt on PC0 and pinged PC1 to initiate an ARP request. Switched to Simulation Mode to observe the ARP broadcast and the resulting MAC address resolution.
-
-- <h4>Verification:</h4> Verified communication using both IPv4 and IPv6 ping commands to ensure end-to-end connectivity.
+1. <h4>Topology Design:</h4> Designed a network topology including PCs, a Router, a Switch, and a Server.
+2. <h4>Static Configuration:</h4> Assigned static IPv4 and IPv6 addresses to the Server and Router interfaces.
+3. <h4>DHCP Setup:</h4> Accessed the Server's Services tab, enabled DHCP, and configured a pool with a range of IP addresses, subnet mask, and default gateway.
+4. <h4>Client Configuration:</h4> Configured the PCs to acquire their IP addresses via DHCP instead of static entry.
+5. <h4>ARP Simulation:</h4> Opened the Command Prompt on PC0 and pinged PC1 to initiate an ARP request. Switched to Simulation Mode to observe the ARP broadcast and the resulting MAC address resolution.
+6. <h4>Verification:</h4> Verified communication using both IPv4 and IPv6 ping commands to ensure end-to-end connectivity.
 
 <h2>Configuration Commands</h2>
 N/A (Configurations handled via GUI menus for PC interfaces and Server services).
 
 <h2>Observations / Results</h2>
-DHCP Lease and ARP Broadcast
 
 - The client PCs successfully acquired dynamic IPv4 configurations from the DHCP server via the DORA (Discover, Offer, Request, Acknowledge) process.
   
