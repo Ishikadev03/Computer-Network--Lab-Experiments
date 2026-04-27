@@ -27,6 +27,7 @@ Implement a sliding window protocol with piggybacking for efficient data transmi
 6. Frame Analysis: Clicked on the packets in the Event List to view detailed sequence numbers and acknowledgment data.
    
 <h2>Configuration Commands</h2>
+
 - PC0 Command Prompt: ping -t <IP_of_PC1>
 
 
