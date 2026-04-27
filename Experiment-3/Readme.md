@@ -1,4 +1,4 @@
-<h1>Experiment - 2</h1>
+<h1>Experiment - 3</h1>
 
 <h2>Create a network simulation to demonstrate packet switching and circuit switching. Compare the performance and efficiency of both methods by simulating a series of data transmission scenarios.</h2>
 
