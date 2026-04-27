@@ -13,7 +13,7 @@ Implement a sliding window protocol with piggybacking for efficient data transmi
 
 <h2>Network Topology</h2>
 
-![Topology](Experiment-7/Topology.jpeg)
+![Topology](Topology.jpeg)
 
  (Above: A direct network topology featuring a sender and receiver node).
 
