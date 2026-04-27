@@ -5,6 +5,7 @@
 Create a simulation to demonstrate logical addressing using IPv4 and IPv6 and 33IPv6. Implement address mapping techniques such as ARP, RARP, BOOTP and DHCP to show how devices acquire and resolve addresses.
 
 <h2>Theory</h2>
+
 - <h3>DHCP (Dynamic Host Configuration Protocol):</h3> Automatically assigns IP addresses and network configuration (such as subnet masks and default gateways) to client devices.
 
 - <h3>ARP (Address Resolution Protocol):</h3> Resolves a known logical IP address to an unknown physical MAC address to facilitate local network communication.
